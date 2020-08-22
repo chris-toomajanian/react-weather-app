@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
+
+.flex-container.fiveday .weatherbox {
+  flex-direction: column;
+}
+
+.weatherbox {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid teal;
+  margin: 10px 0;
+}
+
+.weatherbox > div {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
