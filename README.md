@@ -1,4 +1,4 @@
-# Vroom React Code Challenge
+# React Code Challenge
 
 ## How to view this app locally
 
